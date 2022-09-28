@@ -1,0 +1,21 @@
+<div class="container-fluid bg-primary d-flex justify-content-center pt-5" style="height: 200px;">
+ <h1 class="fw-bolder text-white" style="font-size: 70px;">NEWS TODAY</h1>
+</div>
+<div class="row ">
+    <div class="col">
+        <ul class="nav justify-content-center bg-info">
+            <li class="nav-item ">
+              <a class="nav-link active text-white fw-bold" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" routerLink="/" >Business</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" routerLink="/technology" >Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" routerLink="/sports">Sports</a>
+            </li>
+          </ul>
+    </div>
+</div>
+<div>
+    <router-outlet></router-outlet>
+</div>
